@@ -1,0 +1,151 @@
+/* Basic reset and styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  color: #1e213c;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header i {
+  margin-right: 10px;
+}
+
+.input-part {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+input[type='text'] {
+  flex: 1;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.separator {
+  width: 10px;
+}
+
+button {
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  background-color: #1e213c;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0b0c1c;
+}
+
+.info-txt {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #ff4a4a;
+}
+
+.weather-part {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weather-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.temp {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.deg {
+  font-size: 24px;
+}
+
+.weather {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 16px;
+  color: #888;
+}
+
+.bottom-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  margin-left: 10px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-item {
+  flex-basis: calc(20% - 10px);
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+}
+
+.forecast-day {
+  font-weight: bold;
+}
+
+.forecast-temp {
+  margin-top: 5px;
+  font-size: 16px;
+}
